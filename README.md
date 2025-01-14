@@ -1,7 +1,9 @@
 # Literalura
 
 Literalura es un pequeño programa de consola desarrollado en Java que permite almacenar datos de  libros utilizando la API de Gutendex.
-
+<p align="center">
+  <img src="badge literalura.png" alt="Insignia de Oracle">
+</p>
 
 ## Introducción
 
