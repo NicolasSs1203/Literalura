@@ -31,6 +31,32 @@ $ mvn clean install
 ```
 El programa proporciona opciones interactivas para buscar, almacenar y gestionar libros.
 
+Información sobre la API Gutendex
+
+## La API de Gutendex 
+
+es una API pública que permite acceder a una colección de libros del Proyecto Gutenberg. Algunos detalles clave sobre la API son:
+```
+URL base: https://gutendex.com/books
+```
+Formatos de respuesta: JSON
+
+Parámetros comunes:
+
+search: Permite buscar libros por título, autor u otros términos relevantes.
+
+languages: Filtra los libros por idioma (por ejemplo, en para inglés).
+
+topics: Filtra los libros por categorías o temas.
+
+Ejemplo de uso:
+Una solicitud para buscar libros en inglés con "Shakespeare" en el título:
+
+```bash
+curl "https://gutendex.com/books?search=Shakespeare&languages=en"
+```
+Documentación oficial: La API Gutendex no requiere autenticación y está diseñada para ser accesible a desarrolladores que trabajan con proyectos relacionados con libros o literatura.
+
 ## Dependencias
 
 Literalura utiliza las siguientes bibliotecas y herramientas:
